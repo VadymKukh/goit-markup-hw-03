@@ -6,11 +6,30 @@ body {
   font-weight: 400;
   letter-spacing: 0.02em;
   background-color: #ffffff;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 .header-nav-list {
@@ -26,6 +45,8 @@ ol {
 
 .address-header {
   font-style: normal;
+  display: flex;
+  box-sizing: border-box;
 }
 
 .address-header .address-list-item .adress-link {
@@ -176,4 +197,48 @@ ol {
 
 .section-our-team ul .our-team-list {
   background-color: #ffffff;
+}
+
+.container {
+  flex-basis: 1358px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin: 0 auto;
+}
+
+.section,
+.section-our-team {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.footer-all {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+header .container,
+.logo-full,
+.header-nav,
+.head-nav,
+.head-address {
+  display: flex;
+  align-items: center;
+}
+
+.logo-full {
+  padding-right: 76px;
+}
+.header-nav {
+  gap: 40px;
+  padding-right: 332px;
+}
+
+.head-address {
+  gap: 40px;
 }
