@@ -29,7 +29,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
-  padding-left: 0;
+  padding: 0;
 }
 
 .header-nav-list {
@@ -200,13 +200,15 @@ ol {
 }
 
 .container {
-  flex-basis: 1358px;
+  flex-basis: 1440px;
   padding-left: 156px;
   padding-right: 156px;
   margin: 0 auto;
 }
 
+.section-our-team,
 .section,
+.section-main-title,
 .section-our-team {
   padding-bottom: 120px;
   padding-top: 120px;
@@ -220,6 +222,8 @@ ol {
 header {
   padding-top: 24px;
   padding-bottom: 24px;
+  flex-basis: 1358px;
+  max-width: 1440px;
 }
 
 header .container,
