@@ -29,7 +29,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-left: 0;
 }
 
 .header-nav-list {
@@ -200,10 +200,9 @@ ol {
 }
 
 .container {
-  flex-basis: 1440px;
-  padding-left: 156px;
-  padding-right: 156px;
-  margin: 0 auto;
+  max-width: 1158px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
 
 .section-our-team,
@@ -220,29 +219,33 @@ ol {
 }
 
 header {
+  border-bottom: 1px solid #2e2f42;
+}
+
+header .container {
   padding-top: 24px;
   padding-bottom: 24px;
-  flex-basis: 1358px;
-  max-width: 1440px;
+  flex-basis: 1158px;
 }
 
 header .container,
-.logo-full,
+header .logo-full,
 .header-nav,
 .head-nav,
 .head-address {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
-.logo-full {
-  padding-right: 76px;
+header .logo-full {
+  margin-right: 76px;
 }
 .header-nav {
   gap: 40px;
-  padding-right: 332px;
 }
 
 .head-address {
   gap: 40px;
+  justify-content: flex-end;
 }
