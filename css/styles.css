@@ -261,9 +261,8 @@ header .logo-full {
 }
 
 .section-main-title .container {
-  height: 600px;
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 
 .main-button {
