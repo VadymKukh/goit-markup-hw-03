@@ -290,5 +290,22 @@ header .logo-full {
   justify-content: space-between;
 }
 
-.section .container {
+.our-team-uli {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  gap: 24px;
+  margin-top: 72px;
+}
+
+.our-team-uli div
+ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
