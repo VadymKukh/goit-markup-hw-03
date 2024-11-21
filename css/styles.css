@@ -309,3 +309,31 @@ header .logo-full {
   margin-top: 32px;
   margin-bottom: 32px;
 }
+
+.sect-three-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 48px) / 3;
+  justify-content: space-between;
+
+}
+
+.header-our-portfolio {
+  margin-bottom: 48px;
+}
+
+.sect-three-flex {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
+
+footer p {
+  border: none;
+  width: 264px;
+  margin-top: 16px;
+}
+
+.sect-three-list .list-margin {
+  margin-bottom: 48px;
+}
