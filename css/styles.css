@@ -354,7 +354,7 @@ margin: 0 auto;
   border: 1px solid #e7e9fc;
   border-top: none;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
    flex-direction: column;
 
   
